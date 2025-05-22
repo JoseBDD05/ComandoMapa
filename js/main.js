@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
       outputText.innerHTML = `Mensaje detectado: <strong><em>${transcript}</em></strong>`;
       
       // Enviar el mensaje al servidor PHP para obtener la respuesta de la API de OpenAI
-      fetch('http://3.237.68.45/api-gpt-php/endpoints/chat.php', {
+      fetch('http://44.202.216.247/api-gpt-php/endpoints/chat.php', {
         method: 'POST', // Método HTTP utilizado para la solicitud
         headers: {
           'Content-Type': 'application/json' // Indica que el cuerpo de la solicitud está en formato JSON
